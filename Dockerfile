@@ -1,3 +1,4 @@
-FROM ubuntu:18.04
+USER root
+FROM ubuntu0.04
 
-RUN apk add -U subversion
+RUN apt-get -y update
