@@ -1,2 +1,3 @@
-FROM ubuntu0.04
-RUN apt-get -y update
+FROM node:16.13.1-alpine
+
+RUN apk add -U subversion
