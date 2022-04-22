@@ -1,3 +1,3 @@
-FROM node:16.13.1-alpine
+FROM ubuntu:18.04
 
 RUN apk add -U subversion
