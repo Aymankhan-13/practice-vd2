@@ -4,8 +4,6 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'node --version'
-                sh 'svn --version'
                 sh 'ls -l'
                 dir ('foo') {
                     writeFile file:'dummy', text:''
